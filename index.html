@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,800;1,900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
 </head>
 <body>
     <!-- Start the navbar -->
@@ -71,7 +72,7 @@
             <div class="col-md-6 intros text-center">
               <div class="video-box">
                 <img src="images/add/hacker-lineal-colored.png" alt="video illustration" class="img-fluid">
-                <a href="https://www.youtube.com/watch?v=pmbHZOTEqmc" class="position-absolute top-50 start-50 translate-middle">
+                <a href="https://youtu.be/jTwUXu90sGY?si=_ImgPrlyRnnyQfYN" class="position-absolute top-50 start-50 translate-middle glightbox">
                   <span>
                     <i class="fas fa-play-circle"></i>
                   </span>
@@ -84,10 +85,56 @@
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L40,64C80,96,160,160,240,165.3C320,171,400,117,480,117.3C560,117,640,171,720,208C800,245,880,267,960,282.7C1040,299,1120,309,1200,277.3C1280,245,1360,171,1400,133.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
       </section>
+
+
+      <!-- 
+        START THE COMPANIES SECTION
+       -->
+       <section id="campanies" class="campanies">
+        <div class="container">
+          <div class="row text-center">
+            <h4 class="fw-bold lead mb-3">trusted campanies like</h4>
+            <div class="heading-line mb-5"></div>
+          </div>
+        </div>
+        <!-- START BIG COMPANY CONTENTS -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-2">
+              <div class="campanies__jogo-box shadow-sm"><img src="images/20220922_193333.jpg" alt="this is a picture" class="img-fluid"></div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="campanies__jogo-box shadow-sm"><img src="images/20220922_200935.jpg" alt="this is a picture" class="img-fluid"></div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="campanies__jogo-box shadow-sm"><img src="images/20220925_150418.jpg" alt="this is a picture" class="img-fluid"></div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="campanies__jogo-box shadow-sm"><img src="images/20220927_154813.jpg" alt="this is a picture" class="img-fluid"></div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="campanies__jogo-box shadow-sm"><img src="images/20220927_155749.jpg" alt="this is a picture" class="img-fluid"></div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="campanies__jogo-box shadow-sm"><img src="images/20220927_160307.jpg" alt="this is a picture" class="img-fluid"></div>
+            </div>
+          </div>
+        </div>
+       </section>
       
 
 
+    <script src="assets/vendors/js/glightbox.min.js"></script>
 
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'href':'https://youtu.be/jTwUXu90sGY?si=_ImgPrlyRnnyQfYN',
+        'type':'video',
+        'source': 'youtube',
+        'width':900,
+        'autoPlayVideos': 'true'
+      })
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
