@@ -1,0 +1,16 @@
+@use '../custom' as *;
+@use '../components/maxins' as *;
+
+.menu{
+    @include linearGradient;
+
+    li{
+        padding: 0 0.7rem;
+
+        a{
+            color:$white;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}
